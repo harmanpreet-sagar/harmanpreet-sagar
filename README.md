@@ -1,6 +1,6 @@
 # Hi! I am Harmanpreet Singh Sagar
 
-## I am a second-year Software Engineering Student at McMaster University
+### I am a second-year Software Engineering Student at McMaster University
 
 I am an aspiring engineer who is deeply interested in the engineering design process and in multiple programming languages. I want to utilize my knowledge of different software, languages, and frameworks to innovate and transform various processes.
 
@@ -18,6 +18,8 @@ You can learn more about my projects on my [website](https://harmanpreetsagar.wi
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8.svg?style=for-the-badge&logo=OpenCV&logoColor=white)
 ![Google Firebase](https://img.shields.io/badge/Firebase-FFCA28.svg?style=for-the-badge&logo=Firebase&logoColor=black)
 ![NumPy](https://img.shields.io/badge/NumPy-013243.svg?style=for-the-badge&logo=NumPy&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000.svg?style=for-the-badge&logo=Markdown&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E.svg?style=for-the-badge&logo=YAML&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D.svg?style=for-the-badge&logo=Arduino&logoColor=white)
 ![VSCode](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
