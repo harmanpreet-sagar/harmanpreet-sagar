@@ -4,7 +4,7 @@
 
 I am an aspiring engineer who is deeply interested in the engineering design process and in multiple programming languages. I want to utilize my knowledge of different software, languages, and frameworks to innovate and transform various processes.
 
-You can learn more about my projects on my [website](https://harmanpreetsagar.wixsite.com/website)!
+You can learn more about my projects on my [website](https://harmanpreetsagar.wixsite.com/website/portfolio)!
 
 ## Developer Skills
 
