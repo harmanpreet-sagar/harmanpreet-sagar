@@ -36,6 +36,6 @@ You can learn more about my projects on my [website](https://harmanpreetsagar.wi
 
 ## My Stats
 
-![Harman's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=harmanpreet-sagar&theme=2077)
-![Harman's Commit stats](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=harmanpreet-sagar&theme=2077)
-![Harman's Repo stats](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=harmanpreet-sagar&theme=2077)
+![Harman's GitHub stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=harmanpreet-sagar&theme=2077)
+![Harman's Commit stats](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=harmanpreet-sagar&theme=2077)
+![Harman's Repo stats](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=harmanpreet-sagar&theme=2077)
