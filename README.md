@@ -5,6 +5,7 @@
 I am an aspiring engineer who is deeply interested in the engineering design process and in multiple programming languages. I want to utilize my knowledge of different software, languages, and frameworks to innovate and transform various processes.
 
 ### Current positions:
+- Technical Engineering Intern - Systems Modelling Team || Synopsys || May 2024 - Present
 - Firmware Specialist || McMaster Interdisciplinary Satellite Team || Sep. 2023 - Present
 - Community Co-Lead || Google Developers Student Clubs McMasterU || Jul. 2023 - Present
 
