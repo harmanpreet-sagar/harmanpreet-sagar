@@ -2,12 +2,16 @@
 
 ### I am a third-year Software Engineering Student at McMaster University
 
-I am an aspiring engineer who is deeply interested in the engineering design process and in multiple programming languages. I want to utilize my knowledge of different software, languages, and frameworks to innovate and transform various processes.
+I am a Software Engineering student at McMaster University with hands-on experience in both software development and high-speed SERDES design & verification. At Synopsys, I contributed to system modelling, CI/CD optimization, regression testing flows, and customer-ready Simulink models, achieving measurable improvements in execution speed, stability, and debug efficiency.
+
+Beyond industry, I have worked as a Research Assistant on large-scale Haskell-based systems and actively contribute to technical clubs such as the McMaster Interdisciplinary Satellite Team and GDSC McMasterU. My projects range from winning the DeltaHacks IX RBC Challenge with Biz-Connect to building robotic systems and interactive games, showcasing my ability to innovate across domains.
+
+I am passionate about leveraging C++, Python, MATLAB/Simulink, and modern frameworks to design efficient and scalable solutions that bridge the gap between software and hardware, driving innovation.
 
 ### Current positions:
-- System Architecture and Model Engineering Intern || Synopsys || May 2024 - Present
 - Firmware Specialist || McMaster Interdisciplinary Satellite Team || Sep. 2023 - Present
-- Community Co-Lead || Google Developers Student Clubs McMasterU || Jul. 2023 - Present
+- System Architecture and Model Engineering Intern || Synopsys || May 2024 - Aug 2025
+- Community Co-Lead || Google Developers Student Clubs McMasterU || Jul. 2023 - Jul 2025
 
 ### Past Experience:
 - Research Assistant - [Drasil project](https://github.com/JacquesCarette/Drasil) || Department of Computing and Software || May. 2023 - Aug. 2023
