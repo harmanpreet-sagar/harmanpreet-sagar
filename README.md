@@ -10,10 +10,10 @@ I am passionate about leveraging C++, Python, MATLAB/Simulink, and modern framew
 
 ### Current positions:
 - Firmware Specialist || McMaster Interdisciplinary Satellite Team || Sep. 2023 - Present
-- System Architecture and Model Engineering Intern || Synopsys || May 2024 - Aug 2025
-- Community Co-Lead || Google Developers Student Clubs McMasterU || Jul. 2023 - Jul 2025
 
 ### Past Experience:
+- System Architecture and Model Engineering Intern || Synopsys || May 2024 - Aug 2025
+- Community Co-Lead || Google Developers Groups McMasterU || Jul. 2023 - Jul 2025
 - Research Assistant - [Drasil project](https://github.com/JacquesCarette/Drasil) || Department of Computing and Software || May. 2023 - Aug. 2023
 - Outreach Coordinator || Google Developers Student Clubs McMasterU || Oct. 2022 - Jul. 2023
 - Youth in Policing Team Member || Durham Regional Police Services || Nov. 2021 - Mar. 2022
