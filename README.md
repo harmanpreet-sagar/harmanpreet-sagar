@@ -18,7 +18,7 @@ I am passionate about leveraging C++, Python, MATLAB/Simulink, and modern framew
 - Outreach Coordinator || Google Developers Student Clubs McMasterU || Oct. 2022 - Jul. 2023
 - Youth in Policing Team Member || Durham Regional Police Services || Nov. 2021 - Mar. 2022
 
-You can learn more about my projects on my [website](https://harmanpreetsagar.wixsite.com/website/portfolio)!
+You can learn more about my projects on my [website](https://harmanpreet-sagar.vercel.app/)!
 
 ## Developer Skills
 
