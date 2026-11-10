@@ -2,7 +2,7 @@
 
 ### Final-year Software Engineering student at McMaster University (Class of 2027)
 
-I build protocols, data pipelines, and the tests that prove they behave, from CubeSat Space Protocol services on satellite hardware to a race replay that reproduces live timing tick for tick. I also like taking things I care about outside of software, mostly sports, and turning them into something tangible. The F1 Battle Detector below is both of those at once.
+I build protocols, data pipelines, forecasting models, and the tests that prove they behave, from CubeSat Space Protocol services on satellite hardware to a race replay that reproduces live timing tick for tick. I also like taking things I care about outside of software, mostly sports, and turning them into something tangible. The F1 Battle Detector below is both of those at once.
 
 **Working on right now**
 
@@ -12,6 +12,7 @@ I build protocols, data pipelines, and the tests that prove they behave, from Cu
 
 **Some things I am proud of**
 
+- Won **Best In The Clouds Hack** among **80** teams at HackRPI 2026 with [RunwayZero](https://github.com/harmanpreet-sagar/RunwayZero), where a LightGBM model cut a Kalman filter's 30-second aircraft forecast error **37%**
 - Cut broken builds reaching the Perforce depot **90%** at Synopsys with a two-tier regression system, then took its pre-commit gate from **40 minutes to 18**
 - Traced all **7** failed checks among **187** LLM-extracted quotes in jPipe to **5** model errors and **1** PDF parser reading-order fault counted twice, putting the true hallucination rate at **2.7%**
 - Proved the F1 replay matches live polling: **8 laps** of the 2025 Hungarian GP run through a fake OpenF1 server and the replay engine give identical battles at every **1.5-second** tick
@@ -44,6 +45,10 @@ I build protocols, data pipelines, and the tests that prove they behave, from Cu
 **[F1 Battle Detector](https://github.com/harmanpreet-sagar/F1-Battle-Detector-Summarizer)** - Formula 1 race replay and battle ranking · [**Live demo**](https://f1-battle-detector-summarizer.vercel.app/)
 Replays **6** real 2025 Grands Prix (**167k+** OpenF1 rows) through the same detection pipeline live timing uses, stamping every event at the moment a live poller could first have known it. Battles are scored on gap, closing rate, and pace delta, ranked by the championship points at stake, and only surface once they hold across 3 distinct gap readings. Runs on Vercel serverless functions with no long-running process: the broadcast position is worked out from the wall clock, so each request rebuilds its state in about **30-40 ms** and every viewer sees the same race moment. **322** pytest tests in GitHub Actions, including one that replays every race and fails if a battle ever shows under a safety car.
 `Python` `FastAPI` `asyncio` `Pydantic` `Next.js` `TypeScript` `Docker` `Vercel` `GitHub Actions`
+
+**[RunwayZero](https://github.com/harmanpreet-sagar/RunwayZero)** - human vs. AI runway-crossing game, **Best In The Clouds Hack at HackRPI 2026** · [**Play it**](https://runway-zero.vercel.app)
+A controller-training game on real recorded Boston Logan surface traffic, built with [Harnoor Sagar](https://github.com/HarnoorSagar): the replay freezes as a vehicle holds short of a runway, you call CLEAR or HOLD with a confidence, and an ML player makes the same call before the recording shows what really happened. The ML player is a LightGBM model that corrects a Kalman filter's aircraft forecasts, cutting 30-second position error **37%** on held-out data (**74%** on aircraft starting a takeoff roll), with uncertainty cones calibrated to contain the truth **90%** of the time. Fog mode degrades the surveillance feed, and Gemini writes each round's debrief from facts the pipeline computes, rejecting any answer that cites a number it was not given.
+`Python` `LightGBM` `scikit-learn` `pandas` `Next.js` `TypeScript` `Gemini API` `Vercel`
 
 **[jPipe](https://www.jpipe.org/) model-card pipeline** - checking LLM-extracted safety claims against their source (research, McSCert)
 Built a text normalizer (**7** ordered rules, including NFKC and Markdown stripping) and a **5-tier** quote matcher with a PyMuPDF fallback, so a quote the PDF parser scrambled is no longer counted as an LLM hallucination. Covered by **69** pytest cases, including a regression test on the real GPT-5 system card.
@@ -89,10 +94,15 @@ Parses ASCII maze files and computes valid paths using BFS and right-hand traver
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4.svg?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-2A6E3F.svg?style=for-the-badge&logo=freertos&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC.svg?style=for-the-badge&logo=pytest&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243.svg?style=for-the-badge&logo=NumPy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B.svg?style=for-the-badge)
 
 **Infrastructure and Tools**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2.svg?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939.svg?style=for-the-badge&logo=Jenkins&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=Git&logoColor=white)
